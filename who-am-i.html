@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Who I am</title>
+    
+    <style>
+    /* CSS Styling*/
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        h4 {
+            text-decoration: underline;
+            color: rgb(170, 119, 25);
+        }
+        a {
+            color: rgb(194, 158, 82);
+        }
+        p {text-align: center;
+            font-size: 16px;
+        }
+        ul, ol {
+            font-size: 15px;
+        }
+        .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   
+        .colourText {
+            color: aliceblue;
+        }
+        body, html {
+            height: 100%;
+            margin: 0%;
+            font-family:"Open Sans", sans-serif;
+            background-color: rgb(16, 16, 78) ;
+            color: rgb(218, 218, 238);
+            
+            
+        }
+        /*For the background Image*/
+        .bg {
+            background-image: url("compressed\ image.jpg"); /*https://unsplash.com/photos/8qEB0fTe9Vw - Link to image author */
+            height: 100%;
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        }
+
+        /* Style for the container div*/
+        .float-container {    
+        padding: 20px;
+        }
+
+        .float-child {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            border: 2px
+            
+        }  
+    
+    </style>
+    </head>
+
+    <body>
+        <!--Div for adding background img into webpage-->
+        <div class="bg"></div>
+        <div class="bg-text">
+            <h2>Who am I?</h2>
+
+        <!--Floating container to add two divs adjacent to eachother-->
+        <div class="float-container">
+
+            <div class="float-child">
+                <!--Tadiwa's image-->
+                <img src="Tadiwa-Magara Picture.jpg" alt="Tadiws's Bio Photo" class="responsive" >
+    
+            </div>
+        
+
+            <div class="float-child">
+                <div class="outer-div">
+                    <div class="inner-div">
+                        
+                        <p><br>I am Tadiwa (Mercury) Magara.
+                            <br> A Student and Aspiring Software/Data Engineer, with decent expertise in Software Development andSoftware Testing, Search Engine Optimization and Digital Marketing; I am currently studying to become my career goal in technology with Hyperion Development.</p>
+                            
+                    </div>
+                    <div class="inner-div">
+                        <p>Currently, Tadiwa is pursuing his interests in technology, economical and infrastructure development.</p> 
+                        <p>He aims to use this avenue to spark a radical, healthy movement and dialogue which will equip the African continent with the necessary tools to be included in the world stage. By working together with other likeminded individuals, he hopes we can make Africa become a formidable force in the global marketplace.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+        
+    </body>
+
+    <footer>
+
+    </footer>
+</html>

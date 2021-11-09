@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>About Me</title>
+    
+    <style>
+    /* CSS Styling*/
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        h4 {
+            text-decoration: underline;
+            color: rgb(170, 119, 25);
+        }
+        a {
+            color: rgb(194, 158, 82);
+        }
+        p {text-align: center;
+            font-size: 16px;
+        }
+        ul, ol {
+            font-size: 15px;
+        }
+        .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   
+        .colourText {
+            color: aliceblue;
+        }
+        body, html {
+            height: 100%;
+            margin: 0%;
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(16, 16, 78) ;
+            color: rgb(218, 218, 238);
+            
+            
+        }
+        /*For the background Image*/
+        .bg {
+            background-image: url("compressed\ image.jpg"); /*https://unsplash.com/photos/8qEB0fTe9Vw - Link to image author */
+            height: 100%;
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        }
+
+        /* Style for the container div*/
+        .float-container {    
+        padding: 20px;
+        }
+
+        .float-child {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            border: 2px
+            
+        }  
+    
+    </style>
+    </head>
+
+    <body>
+        <!--Div for adding background img into webpage-->
+        <div class="bg"></div>
+        <div class="bg-text">
+            <h2>About Me</h2>
+
+        <!--Floating container to add two divs adjacent to eachother-->
+        <div class="float-container">
+
+            <div class="float-child">
+                <!--Tadiwa's image-->
+                <img src="Tadiwa-Magara Picture.jpg" alt="Tadiws's Bio Photo" class="responsive" >
+    
+            </div>
+        
+            <div class="outer-div">
+                <div class="inner-div">
+                    <p>Born in Zimbabwe and raised in South Africa, Tadiwa grew up serving others in both countries - a true testament of great leadership skills. In Zimbabwe, he undertook primary education schooling where he became the HeadBoy, cricket captain and Quiz Club captain at Hallingbury School. <br> He continued soaring high on his trajectory in secondary school at St John’s High School where he became the cricket captain at 15 years of age and he also became the Quiz Secretary.</p> 
+                    <p>Following this, Tadiwa returned to South Africa to pursue A Level education at Andrews Academy. <br> Six months after joining the school as a senior, in 2020,he was appointed the HeadBoy of the prestigious academy and the head of the Debate and Public Speaking Club.</p>  
+                </div>
+                <div class="inner-div">
+                    <p>Currently, the 20 year old self taught developer, who is fresh out of high school, is working hard in order to help others across the continent through technology.</p>       
+                </div>
+            </div>
+        
+        </div>
+        </div>
+        
+    </body>
+
+    <footer>
+
+    </footer>
+</html>

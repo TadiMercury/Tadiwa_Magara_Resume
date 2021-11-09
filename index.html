@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Tadi's Website</title>
+    
+    <style>
+    /* CSS Styling*/
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        h4 {
+            text-decoration: underline;
+            color: rgb(170, 119, 25);
+        }
+        a {
+            color: rgb(194, 158, 82);
+        }
+        p {text-align: center;
+            font-size: 16px;
+        }
+        ul, ol {
+            font-size: 15px;
+        }
+        .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   
+        .colourText {
+            color: aliceblue;
+        }
+        body, html {
+            height: 100%;
+            margin: 0%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif Helvetica, sans-serif;
+            background-color: rgb(16, 16, 78) ;
+            color: rgb(218, 218, 238);
+            
+            
+        }
+        /*For the background Image*/
+        .bg {
+            background-image: url("compressed\ image.jpg"); /*https://unsplash.com/photos/8qEB0fTe9Vw - Link to image author */
+            height: 100%;
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        border-radius: 5%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        }
+
+        /* Style for the container div*/
+        .float-container {    
+        padding: 20px;
+        }
+
+        .float-child {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            border: 2px
+            
+        }  
+    
+    </style>
+    </head>
+
+    <body>
+        <!--Div for adding background img into webpage-->
+        <div class="bg"></div>
+        <div class="bg-text">
+            <h1>Tadiwa Magara - Hyperion Development Student</h1>
+        <h2>
+            <p>
+                <ul>
+                    <li><a class="a" href="who-am-i.html">Who am I?</a></li>
+                    <li><a class="a" href="about-me.html">About Me</a></li>
+                    <li><a class="a" href="skills.html">Education and Skills</a></li>
+                    <li><a href="work-history.html" target="_blank">Work History</a></li>
+                    <li><a href="extras.html" target="_blank">Volunteer Work/Cerifications</a></li>
+                </ul>
+            </p></h2>
+
+            
+
+            <h2>Contact Details:</h2>
+        
+        <h2>
+        <p>
+            <ul>
+                <li><a class="a" href="mailto:magara.tadiwa9@gmail.com">Email - magara.tadiwa9@gmail.com</a></li>
+                <li><a class="a" href="tel:+27747145215">Contact - +27 74 714 5215</a></li>
+                <li><a href="https://www.linkedin.com/in/tadiwa-magara-b5b160221/" target="_blank">LinkedIn Link</a></li>
+            </ul>
+        </p></h2>
+        </div>
+        
+    </body>
+
+    <footer>
+
+    </footer>
+</html>

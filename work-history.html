@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Work History</title>
+    
+    <style>
+    /* CSS Styling*/
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        h4 {
+            text-decoration: underline;
+            color: rgb(170, 119, 25);
+        }
+        a {
+            color: rgb(194, 158, 82);
+        }
+        p {text-align: center;
+            font-size: 16px;
+        }
+        ul, ol {
+            font-size: 15px;
+        }
+        .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   
+        .colourText {
+            color: aliceblue;
+        }
+        body, html {
+            height: 100%;
+            margin: 0%;
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(16, 16, 78) ;
+            color: rgb(218, 218, 238);
+            
+            
+        }
+        /*For the background Image*/
+        .bg {
+            background-image: url("compressed\ image.jpg"); /*https://unsplash.com/photos/8qEB0fTe9Vw - Link to image author */
+            height: 100%;
+
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+        }
+
+        /* Style for the container div*/
+        .float-container {    
+        padding: 20px;
+        }
+
+        .float-child {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            border: 2px
+            
+        }  
+    
+    </style>
+    </head>
+
+    <body>
+        <!--Div for adding background img into webpage-->
+        <div class="bg"></div>
+        <div class="bg-text">
+            
+                <h2>Work History</h2>
+                <ol>
+                    <li>
+                        <h4>Racetrack Safety Marshal </h4>
+                        <h5>Motorsport South Africa | Sep 2021 - Present </h5>
+                        <ul>
+                            <li>Volunteering at Kyalami Grand Prix circuit toassist in track-day sport duties.</li>
+                            <li>Key Responsibilities: Flag marshalling, Ensuringdriver safety, Enforcing Covid-regulations,Keeping the circuit clean, Incident and fireresponse</li>
+                        
+                        </ul>
+                    </li>
+        
+                    <li>
+                        <h4>Digital Marketing and SEO lead</h4>
+                        <h5>Batanai Corporate Advisory | Apr 2021 - Present</h5>
+                        <ul>
+                            <li>Created the company's online presence on theinternet using SEO.</li>
+                            <li>Managed to increase site traffic by 34% andincrease potential clients by 8% in 3 monthsafter inception of web presence.</li>
+                    
+                        </ul>
+                    </li>
+        
+                    <li>
+                        <h4>Web Designer</h4>
+                        <h5>Batanai Corporate Advisory | Feb 2021 - Apr 2021</h5>
+                        <ul>
+                            <li>Developed and designed the company'scorporate website.</li>
+                            <li>Managed the website using a bootstrapframework and the application of HTML/CSS,PHP knowledge.</li>
+                            <li>
+                                <a href="https://batanaicorporateadvisory.co.za" target="_blank">Link to Company Site</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li>
+                        <h4>Commission Sales Associate</h4>
+                        <h5>Vodacom | Nov 2020 - Jan 2021</h5>
+                        <ul>
+                            <li>Influenced potential customers and businesses as aCommission-based Sales Representative to sign upand get approved for new Vodacom Fibre-Internetplan in their homes using marketing tools.</li>
+                        </ul>
+                    </li>
+        
+                </ol>
+        </div>
+
+        
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
